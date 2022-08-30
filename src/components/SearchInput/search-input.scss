@@ -1,0 +1,21 @@
+.table__search {
+  border-bottom: 1px solid #eaeaea;
+  position: fixed;
+  background-color: white;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    border: 1px solid #eaeaea;
+    padding: 5px 8px;
+    height: 25px;
+    width: 360px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

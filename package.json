@@ -1,6 +1,7 @@
 {
   "name": "table-challenge",
   "version": "0.1.0",
+  "author": "Carolina Faria",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "sass": "^1.54.5",
+    "sass-loader": "10.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

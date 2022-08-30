@@ -1,0 +1,17 @@
+.table__questions {
+  padding-top: 100px;
+}
+
+.table__questions-item:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.table__questions-item {
+  height: 50px;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 15px;
+}
+
+.question-label {
+  padding: 8px 8px 16px;
+}

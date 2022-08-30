@@ -1,0 +1,55 @@
+@import "src/assets/css/scores.scss";
+
+.table__scores-container {
+  padding-top: 100px;
+}
+
+
+.table__scores {
+    display: flex;
+}
+
+.table__scores:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.table__scores-item {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  flex-shrink: 0;
+}
+
+.score-item {
+  border-radius: 5px;
+  padding: 8px 4px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.7rem;
+  width: 30px;
+
+  &.score__item--red {
+    background-color: $score_2_light;
+    color: $score_2_dark;
+  }
+
+  &.score__item--orange {
+    background-color: $score_4_light;
+    color: $score_4_dark;
+  }
+
+  &.score__item--yellow {
+    background-color: $score_5_light;
+    color: $score_5_dark;
+  }
+
+  &.score__item--green {
+    background-color: $score_10_light;
+    color: $score_10_dark;
+  }
+}
