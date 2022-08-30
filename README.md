@@ -1,5 +1,7 @@
 # table-challenge
 
+To check the deployed version, please go to https://table-challenge.vercel.app/
+
 ## Project setup
 ```
 yarn install
