@@ -1,4 +1,4 @@
-# table-challenge
+# table-filtering
 
 To check the deployed version, please go to https://table-challenge.vercel.app/
 
