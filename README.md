@@ -1,6 +1,6 @@
 # table-filtering
 
-To check the deployed version, please go to https://table-challenge.vercel.app/
+To check the deployed version, please go to https://table-filtering.vercel.app/
 
 ## Project setup
 ```
